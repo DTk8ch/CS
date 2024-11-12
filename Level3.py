@@ -23,15 +23,6 @@ def validat_num(num):
 
 
     return is_valid
-            # if num[num.index('x')+1:].isdigit() and 2<=int(num[num.index('x')+1:])<=16:
-            #     for i in num[:num.index('x')]:
-            #         if 0 <= int(i) >= 9 or i in "ABCDEF":
-            #             num = input("This number can not be transformed. Please try another: ")
-            #         else:
-            #             is_valid = True
-            #             break
-        # else:
-        #     num = input("This number can not be transformed. Please try another: ")
 
 def convert_dec(dec_number, system_n):
     additional_nums = {10: 'A', 11: 'B', 12: 'C', 13: 'D', 14: 'E', 15: 'F'}
